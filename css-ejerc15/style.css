@@ -1,0 +1,7 @@
+body {background-color: rgba(1, 255, 200, 0.5)}
+.A {color: rgb(221, 91, 91)}
+#B {color: rgb(60, 255, 0)}
+* {color: rgb(37, 168, 255)}
+h1, h2 {color: rgb(243, 65, 204)}
+ol li {color: rgb(204, 133, 245)}
+p:hover {color: rgb(251, 255, 0)}
