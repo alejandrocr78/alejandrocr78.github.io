@@ -1,0 +1,14 @@
+#encabezado, #intro {font-family: monospace}
+#encabezado {text-align: center}
+#encabezado {background-color: rgb(32, 234, 248)}
+#encabezado {color: rgb(32, 36, 248)}
+#intro {background-color: rgb(248, 245, 32)}
+#intro {color: rgb(248, 32, 32)}
+#test {font-family: Courier New}
+#test {background-color: rgb(32, 234, 248)}
+#test {color: rgb(0, 0, 0)}
+#parrafo {color: rgb(248, 32, 201)}
+.impar {background-color:rgb(136, 136, 136)}
+.par {background-color:rgb(68, 66, 66)}
+.correcta {background-color:rgb(255, 238, 0)}
+.correcta {color:rgb(255, 0, 0)}
