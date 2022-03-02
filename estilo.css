@@ -2,3 +2,6 @@
 #ejercicios1 {background-color: rgb(231, 146, 248);}
 #ejercicios2 {background-color: rgb(238, 255, 86);}
 #web {background-color: rgb(184, 252, 58);}
+#enlaces {background-color: #f5a432}
+.boton:link {color: green}
+.boton:hover {color: red}
