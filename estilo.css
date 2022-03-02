@@ -5,3 +5,9 @@
 #enlaces {background-color: #f5a432}
 .boton:link {color: green}
 .boton:hover {color: red}
+
+#A { display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%}
+* {font-family: Courier New}
