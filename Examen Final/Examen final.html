@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Examen final TICII</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Examen final TICII</h1>
+  <h2>Qué he aprendido</h2>
+<p>Durante el curso he aprendido a programar mis propias paginas con diferentes lenguajes de programacion, como HTML, un lenguaje simple, CSS, un lenguaje un poco mas complejo con el que se pueden ampliar las funciones de HTML, y Java, con el que trabajamos este trimestr, en el que he aprendido a trabajar usando Java para añadir scripts a las paginas webs, pudiendo asi crear variables que ayuden a su funcionamiento y recogiendo variables de lus usiarios que entren en ellas para un funcionamiento mas facil y rapido.</p>
+  <h2>Autoevaluación</h2>
+  <p>Teniendo en cuenta las notas anteriores en la asignatura, creo que me merezco un 9, ya que he completado las tareas extras que han sido propuestas en este ultimo trimestre, aunque hay algunas tareas que se me olvido entregar durante el trimestre.</p>
+  <h1> Parte con evaluacion condicional para primera letra de nombre</h1>
+  
+  <script >
+    var nombre = prompt("introduzca su nombre por favor");
+alert("Hola " + nombre + " bienvenido al examen final")
+    if (nombre[0] == "a" || "e" || "i" || "o" || "u")
+  {document.write("La primera letra de tu nombre es una " +nombre[0] + " y es una vocal");}
+   else {document.write("La primera letra de tu nombre es una " +nombre[0] + " y es una consonante");}
+  </script>
+
+  <h1> Parte con bucle for sobre la variable nombre y condicional</h1>
+  <script>
+    for (i in nombre){
+  if(nombre[i]== "a"|| "e" || "i" || "o" || "u")
+    document.write("<p>la letra " + i + " de tu nombre es una " + nombre[i] + " y es una vocal</p>")}
+  </script>
+  
+</body>
+
+</html>
